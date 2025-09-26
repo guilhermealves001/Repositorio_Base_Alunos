@@ -1,0 +1,5 @@
+nome = input("Digite seu nome completo: ")
+email = input("Digite seu e-mail: ")
+arquivo = open("pessoa.txt","a",encoding="utf-8")
+arquivo.write(nome +"|"+ email + "\n")
+arquivo.close()
